@@ -24,6 +24,8 @@ class CreateProductsTable extends Migration
             $table->boolean('is_new_product');
             $table->integer('category_id');
             $table->integer('user_id');
+            // detail as string table added directly
+            // quantity as integer table added directly
         });
     }
 

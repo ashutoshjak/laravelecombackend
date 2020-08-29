@@ -38,6 +38,19 @@
         </div>
 
         <div class="form-group">
+            <label for="exampleInputEmail1"> Product Detail </label>
+            {{-- <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="0.0" name="productDetail"> --}}
+            <textarea name="productDetail" id="editor1"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1"> Product quantity </label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="0.0" name="productQuantity">
+        </div>
+
+
+
+        <div class="form-group">
             <label for="exampleInputEmail1"> Select product category </label>
             <select class="form-control" name="category">
                 <option> Select </option>

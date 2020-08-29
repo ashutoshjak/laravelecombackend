@@ -36,6 +36,18 @@
             <label for="exampleInputEmail1"> Product discount </label>
             <input type="number" class="form-control" value="{{ $product->discount }}"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="0.0" name="productDiscount">
         </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1"> Product Detail </label>
+            {{-- <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="0.0" name="productDetail"> --}}
+            <textarea name="productDetail" id="editor1">{!! $product->detail !!}</textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1"> Product discount </label>
+            <input type="number" class="form-control" value="{{ $product->quantity }}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="0.0" name="productQuanity">
+        </div>
+
+
 
         <div class="form-group">
             <label for="exampleInputEmail1"> Select product category </label>
